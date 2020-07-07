@@ -1,0 +1,245 @@
+    @font-face {
+        font-family: neoSants;
+        src: url("../fonts/Neo_Sans_Std_Bold.otf");
+        font-weight: bold;
+    }
+    * {
+        font-family: neoSantsR;
+        src: url("../fonts/Neo_Sans_Std_Regular.otf");
+    }
+    
+    .title {
+        font-size: 500%;
+        padding-top: 8%;
+        font-family: neoSants;
+        text-align: center;
+        color:black
+    }
+    .titleA {
+        font-size: 400%;
+        padding-top: 8%;
+        font-family: neoSants;
+        text-align: center;
+        color:rgb(224, 173, 31)
+    }
+    .title1 {
+        font-size: 380%;
+        font-family: neoSants;
+        text-align: center;
+        color:rgb(0, 0, 0)
+    }
+    .title2 {
+        font-size: 380%;
+        font-family: neoSants;
+        text-align: center;
+        color:rgb(0, 0, 0)
+    }
+    .subtitle {
+        font-size:130%;
+        font-family: monospace;
+        text-align: center;
+        color:black
+    }
+    
+    .div {
+        padding-left: 10px;
+        padding-top: 10px;
+        background-position: left;
+        float: left;
+        position:relative;
+        margin-top: 14%;
+        margin-left: 5%;
+        margin-right: auto;
+        width: 28%;
+        border: none;
+        height: auto;
+    }
+
+    .div2 {
+        padding-left: 10px;
+        padding-top: 10px;
+        float: right;
+        position: relative;
+        margin-top: 14%;
+        margin-left: auto;
+        margin-right: 5%;
+        width: 28%;
+        border: none;
+        height: auto;
+        display: block;
+    }
+    .div3 {
+        padding-left: 10px;
+        padding-top: 10px;
+        float: right;
+        position: relative;
+        margin-top: 12%;
+        margin-left: auto;
+        margin-right: 15%;
+        width: 40%;
+        border: none;
+        height: auto;
+        display: block;
+    }
+
+    .div4 {
+        padding-left: 10px;
+        padding-top: 10px;
+        float: left;
+        position: relative;
+        margin-top: 6%;
+        margin-right: auto;
+        margin-left: 15%;
+        width: 40%;
+        border: none;
+        height: auto;
+        display: block;
+    }
+    .div5 {
+        padding-left: 10px;
+        padding-top: 10px;
+        float: right;
+        position: relative;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: 15%;
+        width: 40%;
+        border: none;
+        height: auto;
+        display: block;
+    }
+    
+    .profile {
+        background-image: url('../images/profile.jpg');
+        background-size: 500px 500px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        float: left;
+        position: relative;
+        margin-top: 150px;
+        margin-left: 120px;
+        height: 450px;
+        width: 450px;
+        border: rgb(161, 185, 171);
+        border-radius: 50%;
+    }
+    .profile2 {
+        background-image: url('https://blog.devmountain.com/wp-content/uploads/2018/04/Edited-4380-e1522701966452.jpg');
+        background-size: 500px 500px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        float: right;
+        position: relative;
+        margin-top: 150px;
+        margin-right: 120px;
+        height: 450px;
+        width: 450px;
+        border: rgb(161, 185, 171);
+        border-radius: 50%;
+    }
+    .profile3 {
+        background-image: url('https://miro.medium.com/max/2530/1*h8iuUmMVCy1s2SqLltjACA.jpeg');
+        background-size: 500px 500px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        float: left;
+        position: relative;
+        margin-left: 150px;
+        margin-top: 150px;
+        height: 450px;
+        width: 450px;
+        border: rgb(161, 185, 171);
+        border-radius: 50%;
+    }
+    .profileA {
+        background-image: url('https://es.unesco.org/youth/toptips/user/pages/images/home-feature-two_mobile.png');
+        background-size: 500px 500px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        float: left;
+        position: relative;
+        margin-top: 150px;
+        margin-left: 120px;
+        height: 450px;
+        width: 450px;
+        border: rgb(161, 185, 171);
+        border-radius: 50%;
+    }
+    .profileB {
+        background-image: url('https://m.economictimes.com/thumb/msid-75339385,width-1200,height-900,resizemode-4,imgsize-143505/job-offer.jpg');
+        background-size: 500px 500px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        float: right;
+        position: relative;
+        margin-top: 150px;
+        margin-right: 120px;
+        height: 450px;
+        width: 450px;
+        border: rgb(161, 185, 171);
+        border-radius: 50%;
+    }
+    .profileC {
+        background-image: url('https://grupocartronic.com/wp-content/uploads/2018/11/plataforma-de-gestion-centralizada-800x675.jpg');
+        background-size: 500px 500px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        float: left;
+        position: relative;
+        margin-left: 150px;
+        margin-top: 150px;
+        height: 450px;
+        width: 450px;
+        border: rgb(161, 185, 171);
+        border-radius: 50%;
+    }
+    .screen {
+        background: url("../images/lines.png") repeat center top;
+    }
+    .image {
+        background: url("../images/prog.png") center;
+        background-size: 662px 781px;
+        background-size: 70% 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        background-repeat: no-repeat;
+        height: 781px;
+        width: 662px;
+    }
+    .footer {
+        background-color: seashell;
+        font-family: 'neoSantsR';
+        width: 100%;
+        height: 3%;
+        bottom: 0;
+        position: fixed;
+        text-align: center;
+        color: black;
+
+    }
+    .frame {
+        padding: 8% 10% 10% 15%;
+        margin-top: auto;
+    }
+    .frameB {
+        padding: 0% 5% 5% 15%;
+            margin-top: auto;
+     }
+     .whatsapp {
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:40px;
+        right:40px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        font-size:30px;
+        z-index:100;
+      }
+      
+      .whatsapp-icon {
+        margin-top:13px;
+      }
